@@ -1,0 +1,31 @@
+//Refactor the JS function created in assignment 2 so that the user can pass the filter condition also to the function. For example, only even numbers, only prime numbers, etc. The condition must NOT be passed as a string. 
+function filterCondition(array,func){
+    anotherArray=[];
+    for(let i=0;i<array.length;i++){
+        if(func(array[i])){
+            anotherArray.push(array[i]);
+        }
+    }
+    console.log(anotherArray);
+}
+array=[5,6,7,8,912,34,56,43,56,76];
+console.log(`the array is: ${array}`);
+
+console.log(`the odd numbers in the array is:`);
+filterCondition(array,x=>x%2!=0);
+
+console.log(`the even numbers in the array is:`);
+filterCondition(array,x=>x%2==0);
+
+console.log(`the prime numbers in the array is:`);
+filterCondition(array,x=>{
+    if(x<=1){
+        return false
+    }
+    for(let i=2;i<x;i++){
+        if(x%i==0){
+            return false
+        }
+    }
+    return true
+})
