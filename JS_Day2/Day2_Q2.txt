@@ -1,0 +1,3 @@
+//Write a JS arrow function which takes 2 numbers and returns their sum.
+let sum = (a, b) => a + b;
+console.log(sum(1,4));

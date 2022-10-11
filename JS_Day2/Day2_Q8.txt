@@ -1,0 +1,12 @@
+//Write a JS function which returns the sum of any number of arguments passed. If no arguments are passed, the function must return a zero.
+function sum(a=0,b=0,...c)
+{
+     var result=a+b
+     for( let i=0;i<c.length;i++)
+     {
+        result += c[i]
+     }
+     return result;
+
+    }
+    console.log(`sum:${sum()}`);
