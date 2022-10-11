@@ -1,0 +1,33 @@
+//Refactor the previous assignment to include the following: 
+//a.	When the user presses the tab key in each textbox, perform the check as mentioned above. 
+//b.	Write JS code to validate each key inputted in each textbox and display an error message beneath each textbox if a space character is detected in username or password. 
+//c.	As long as the username and password textboxes are empty, disable the button. The button must be enabled only when both textboxes contain text. 
+ 
+document.addEventListener('keydown', function(event)
+{
+  var code = event.keyCode || event.which;
+  if (code === 9) {  
+
+    let userName = document.getElementById("idTextBox").value;
+    let password = document.getElementById("passwordTextBox").value;
+
+    if (userName.toUpperCase() != 'CITIUSTECH' && userName !=''){
+                 document.getElementById("span1").textContent = "invalid id"
+                 document.getElementById('span2').style.display = 'none'
+             }
+    else if(password.toUpperCase() != 'CITIUSTECH' &&  password != ''){
+                 document.getElementById("span2").textContent = "invalid password"
+                 document.getElementById('span1').style.display = 'none'
+        }
+  }
+
+  if(document.getElementById("idTextBox").value != "" &&
+      document.getElementById("passwordTextBox").value != "" ){
+        document.getElementById("submitButton").style.display = 'inline'
+    }
+
+    else{
+        document.getElementById("submitButton").style.display = 'none'
+    }
+
+});
