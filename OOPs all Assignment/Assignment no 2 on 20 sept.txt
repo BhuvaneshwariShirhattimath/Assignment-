@@ -1,0 +1,98 @@
+Assignment no 2
+
+1. Given an entity named Television, identify its attributes and explain how will you do Abstraction? 
+
+Attributes:
+1. Height
+2. Width
+3. Screen
+4. Processors
+5. Wi-fi module
+6. Wires
+7. Sensors
+8. Memories
+9. Actuators
+10. Audio and video module
+11. Bluetooth modules
+12. PCBs
+
+
+Abstraction Definition:
+It hides the unnecessary or important data and shows the only essential data.
+So, let’s take one example of Television. In television there are n numbers of attributes. 
+
+Hide The Unnecessary data:
+we all know how to turn the TV on, but we don’t? need to know how it works in order to enjoy it. Like we don’t know what the types of wires are, actuators, sensors, memories various types of modules such as wi-fi, Bluetooth etc. that all are hidden.
+
+
+Shows The Essential data:
+We know the external parameter like height, width, tv type etc.
+
+
+1. Given an entity named Hospital, explain Encapsulation with respect to it. 
+Attributes:
+1. Patients
+2. Doctors
+3. Nurse
+4. Compounder
+5. Management
+6. Cleaning staffs
+
+
+Definition of Encapsulation:
+Encapsulation refers to the bundling of data, along with the methods that operate on that data, into a single unit. 
+
+Hospitals has hide to patients, Doctors and management data, they are very personal and confidential.
+
+
+2. Given an entity named TrafficSignal, explain Polymorphism with respect to it. 
+Attributes:
+1. System Controls 
+2. Field Equipment 
+3. Traffic lights
+4. Communication
+
+
+
+Definition of Polymorphism:
+Polymorphism is the ability of any data to be processed in more than one form.
+
+There are three colours red, yellow and green. The time is already set in our coding for how much time red should be on or off. But in case of emergency, we have extended the time limit and there are some direction also. In the traffic signal there are many forms.
+
+
+
+3. Given an entity named BroadBandConnection, explain inheritance with respect to it. 
+
+Attributes:
+1. Fiber
+2. Media
+3. DSL
+4. Satellite
+5. Cable modem
+6. BPL
+
+
+Definition of Inheritance:
+When a class derives from another class is called inheritance. The child class will inherit all the public and protected properties and methods from the parents class. In addition, it can have its own properties and methods.
+
+So here BroadBandConnection is the class and DSL, BPL, Cable Modern , Fiber, satellite & Wireless are the child class which inherits the properties of BroadBandConnection
+
+
+4. Given an entity named MobilePhone, identify its static & dynamic attributes. 
+Attributes:
+Static:
+1. Sim
+2. Camera
+3. Mobile case
+
+Dynamic:
+1. Screen
+2. OS
+3. Screen
+ 
+
+
+
+
+
+

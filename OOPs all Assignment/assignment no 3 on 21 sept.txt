@@ -1,0 +1,49 @@
+1. Given a class named Patient, identify what instance methods could be written in this class. 
+
+Solution:
+Instance methods of the class patient are:
+1. Getting patients details such as name, age, weight, etc.
+2. Getting patients previous medical report.
+3. His current checkup details based on its is possible to identify of is there any change is happening with compared to previous report or new symptoms of disease is present.
+4. Now on its report which treatment is given to that person such as whether it requires tablet, injection, operation, etc
+5. We also can create a method for the billing information of the patient.
+
+ 
+2. Given a class named CPU, identify the public & private instance members. 
+
+Answer:
+CPU private instance:
+CPU architecture which instruction or data registers are present, processing speed of the processor, memory unit of the CPU, etc.
+CPU public instance:
+Operating software to communication with the CPU, data processing, data transfer, etc.
+ 
+ 
+3. Given a class named Media, assume there are 3 objects of this class. Identify the static members of this class. 
+
+Answer:
+Class media it’s object are SSD, HDD, USB
+Static member of the class media are:
+1. Storage
+2. Price
+3. Technology to manufacture the drive
+4. Data transfer rate
+
+
+ 
+
+5. Given a class named Calculator & its derived classes named Standard and Scientific, identify the method which can be overridden by the derived classes. 
+
+Answer:
+The methos which are common in parent and derived class the derived class will override this method. These methods consist of the common operation that any calculator has such as addition, subtraction, division, multiplication, clear display, turn on or of the calculator.
+
+ 
+6. Given the classes Bird, Superman, Aeroplan and Missile, identify the usage of interfaces here. 
+
+          Answer:
+All the classes that is bird, superman, aeroplane, missile having the same functionality of the flying but there way of the flying is different so we can create the flying interface and its definition is different for different class.
+
+
+
+
+
+
