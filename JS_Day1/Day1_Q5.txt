@@ -1,0 +1,13 @@
+//Write JS code to sort the array created in assignment 4 in a reverse order. 
+document.write('---------Reverse of Array elements ----------<br>')
+var inputarr=[];
+var size=5;
+for(var a=0;a<size;a++)
+{
+    inputarr[a]=prompt("Enter the" + " "+(a+1)+" "+ "array element");
+
+}
+console.log(inputarr);  
+inputarr.sort(); 
+arr=inputarr.reverse();
+console.log(arr);

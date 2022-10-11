@@ -1,0 +1,21 @@
+//Write JS code to find the number of vowels in the string CITIUSTECH. If the vowel is repeated, it must be counted as 1. 
+const vowels=['a','e','i','o','u','A','E' ,'I' ,'O' ,'U'];
+
+function countVowel(str){
+    let vowelsCount=0;
+    const vow=[];
+
+//check if each character is vowel in the string
+for (let letter of str.toLowerCase()) {
+            if (vowels.includes(letter)) {
+                vow.push(letter);
+                vowelsCount++;
+            }
+    }
+    const uniqueCount= new Set(vow).size;
+ return uniqueCount;
+ }
+ 
+ const string= "CITIUSTECH";
+ const result=countVowel(string);
+ console.log(result);

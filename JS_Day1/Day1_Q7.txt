@@ -1,0 +1,21 @@
+//Write JS code to find the factorial of each number inside an array of 5 elements. The factorial of each number must then be stored in another array of the same size. Print the result array on the console. 
+const inputarr=[3,2,4,6,5];
+
+function fact(num){
+    var i,f;
+    f=1;
+    for(i=1;i<=num;i++)
+    {
+        f=f*i;
+    }
+   
+     return f;
+}
+
+const facto=[];
+
+for(element of inputarr){
+    facto.push(fact(element));
+}
+console.log(inputarr);
+console.log(facto);
